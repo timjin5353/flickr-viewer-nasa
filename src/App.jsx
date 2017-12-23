@@ -21,7 +21,7 @@ const calculateTopOffSet = () => {
 		return 140;
 	} 
 	else if(window.innerWidth > 306) {
-		return 215;
+		return 205;
 	} else {
 		return 265;
    }
