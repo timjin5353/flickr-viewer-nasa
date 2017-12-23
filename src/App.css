@@ -1,0 +1,67 @@
+body {
+  background-color: #E0E0E0;
+}
+
+#AppBar {
+  position: fixed;
+  width:100%;
+  top: 0px;
+  z-index: 10;
+}
+
+.PhotoCardList {
+  margin: 10px auto;
+  width: 60%;
+  color: black;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.PhotoCardList div {
+  background-color: white !important;
+}
+
+#ToolBar {
+  min-height: 80px !important;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: fixed;
+  top: 64px;  
+  z-index: 10;
+  background-color: white !important;
+  border: 1px solid #C1C1C6;
+}
+
+.PhotoCard {
+  margin: 5px 0px auto 0px;
+  border: 1px solid #C1C1C6;
+}
+
+.PhotoID {
+  margin: 5px;
+}
+
+.PhotoTitle {
+  margin: 5px;
+}
+
+#Filter {
+  margin-left: 20px;
+}
+
+#Filter div {
+  width: 190px !important;
+}
+
+#Filter div label {
+  color: black !important;
+}
+
+#Sort {
+  margin-top: 15px;
+}
