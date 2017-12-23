@@ -32,8 +32,8 @@ const calculateTopOffSet = () => {
  */
 const calculateWidthPercentage = () => {
 	if(window.innerWidth <= 511) {
-		return 85;
-	} else return 60;
+		return 95;
+	} else return 80;
 }
 
 const largePhotoStyle = {
