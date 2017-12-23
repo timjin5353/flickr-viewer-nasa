@@ -11,13 +11,12 @@ body {
 
 .PhotoCardList {
   margin: 10px auto;
-  width: 60%;
   color: black;
   position: relative;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .PhotoCardList div {

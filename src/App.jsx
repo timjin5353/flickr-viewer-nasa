@@ -18,7 +18,7 @@ const API = `https://api.flickr.com/services/rest/?method=flickr.people.getPubli
  */
 const calculateTopOffSet = () => {
 	if(window.innerWidth > 862) {
-		return 150;
+		return 140;
 	} 
 	else if(window.innerWidth > 383) {
 		return 215;
@@ -32,7 +32,7 @@ const calculateTopOffSet = () => {
  */
 const calculateWidthPercentage = () => {
 	if(window.innerWidth <= 511) {
-		return 80;
+		return 85;
 	} else return 60;
 }
 
